@@ -22,7 +22,7 @@ Internal pullup is used, so all you need is to connect NC terminals of rotary di
   * Allow inverting of logic to use NO instead of NC dials (not sure if there are such)
   * Allow more than one dial at the same time
   * Provide method to detach interrupt if needed
-  * Handle dial timeout directly in library? (= send ENTER when no numbers are received, currently we handle this in example sketch)
+  * Handle dial timeout directly in library? (= send ENTER when user is done typing numbers, currently we handle this in example sketch)
 
 ## See also
 
