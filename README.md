@@ -1,6 +1,6 @@
 # Rotary Dial Arduino Library
 
-Arduino library to read numbers from a rotary dial (or otherwise using pulse dialing; see [Wikipedia: Rotary dial](http://en.wikipedia.org/wiki/Rotary_dial)).
+Arduino library to read numbers from a telephone rotary dial (or otherwise using pulse dialing; see [Wikipedia: Rotary dial](http://en.wikipedia.org/wiki/Rotary_dial)).
 
 ![front of a rotary telephone dial](http://www.markfickett.com/umbrella/images/111105rotarydialfront-sm.jpg "Rotary Dial")
 
