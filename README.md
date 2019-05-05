@@ -3,7 +3,7 @@
 
 <p align="center"><img src="https://i.imgur.com/SHSXXla.png" /></p>
 
-This library was written for use with the dial pictured above (Dial from Czech telephone Tesla AS-10). But it should work with anything capable of producing bursts of pulses.
+This library was written for use with the dial pictured above (Dial from Czech telephone Tesla AS-10, green and yellow wire). But it should work with anything capable of producing bursts of pulses.
 
 This implementation is for the North American system, where [1, 9] pulses correspond to the numbers [1, 9], and 0 is represented by 10 pulses.
 
