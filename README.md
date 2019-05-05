@@ -1,7 +1,7 @@
 # Rotary Dial Arduino Library
 
 
-![front of a rotary telephone dial](https://i.imgur.com/SHSXXla.png "Rotary Dial")
+<div style="text-align:center"><img src="https://i.imgur.com/SHSXXla.png" /></div>
 
 This library was written for use with the dial pictured above (Dial from Czech telephone Tesla AS-10). But it should work with anything capable of producing bursts of pulses.
 
