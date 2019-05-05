@@ -15,6 +15,15 @@ Unfortunataly this library is static, so currently you can use it only once at a
 
 Internal pullup is used, so all you need is to connect NC terminals of rotary dial to GND and Pin 2 (or whatever pin you choose in the code).
 
+## TODO
+
+  * Possibility to register callback for processing received numbers
+  * Make timing constants user configurable
+  * Allow inverting of logic to use NO instead of NC dials (not sure if there are such)
+  * Allow more than one dial at the same time
+  * Provide method to detach interrupt if needed
+  * Handle dial timeout directly in library? (= send ENTER when no numbers are received, currently we handle this in example sketch)
+
 ## See also
 
   * Wikipedia: Rotary dial http://en.wikipedia.org/wiki/Rotary_dial
