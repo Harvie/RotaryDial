@@ -29,4 +29,5 @@ Internal pullup is used, so all you need is to connect NC terminals of rotary di
   * Wikipedia: Rotary dial http://en.wikipedia.org/wiki/Rotary_dial
   * Rotary-Dialer Library by Mark Fickett https://github.com/markfickett/Rotary-Dial
     * Similar library, but does not use interrupts and needs third wire with "enable" signal
+  * Do you want to make PS2 keyboard using rotary dial as an input? https://github.com/Harvie/ps2dev/
   * Brmlab Hackerspace Prague http://brmlab.cz/
