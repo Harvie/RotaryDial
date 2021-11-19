@@ -1,8 +1,13 @@
 #include "Arduino.h"
 #include "RotaryDial.h"
 
+#ifndef MS_DEBOUNCE
 #define MS_DEBOUNCE 15
+#endif
+
+#ifndef MS_DIGITEND
 #define MS_DIGITEND 600
+#endif
 
 int RotaryDial::interruptPin = 2;
 int RotaryDial::last = 0;
