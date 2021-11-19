@@ -18,7 +18,7 @@ Internal pullup is used, so all you need is to connect NC terminals of rotary di
 ## TODO
 
   * Possibility to register callback for processing received numbers
-  * Make timing constants user configurable
+  * ~~Make timing constants user configurable~~
   * Allow inverting of logic to use NO instead of NC dials (not sure if there are such)
   * Allow more than one dial at the same time
   * Provide method to detach interrupt if needed
