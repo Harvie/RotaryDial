@@ -21,8 +21,20 @@ void RotaryDial::change() {
   if(state == last) return;
   last = state;
 
-  //Ignore interrupts if there's unread digit
+  /*If there is an unread digit when a new pulse arrives, we have a choice:
+    (1) ignore the new pulses until the last digit is read ("first in wins"), or
+    (2) discard the unread digit and start accumulating a new one ("last in wins").
+    Note that the first-in-wins semantics can result in partial pulse-trains
+    being counted (and corrupt digits returned) on subsequent read()s.
+    Hence the default semantics is last-in-wins, but it can be changed e.g.
+    with "-DRD_FIRST_IN_WINS" compile flag or by uncommenting the following line:
+  */
+//#define RD_FIRST_IN_WINS
+#ifdef RD_FIRST_IN_WINS
   if(available()) return;
+#else
+  if(available()) { pulseCount = 0; }
+#endif
 
   //Process signal edges
   if(state) { //RISING
